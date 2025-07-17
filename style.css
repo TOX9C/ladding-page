@@ -180,7 +180,7 @@ p {
   font-weight: bold;
 }
 .footer {
-  flex: 1 1 auto;
+  flex: 0 1 auto;
   display: flex;
   justify-content: center;
   align-items: center;
