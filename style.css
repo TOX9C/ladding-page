@@ -95,6 +95,7 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex: 1 1 auto;
 }
 .part1 h1 {
   font-size: 36px;
@@ -132,7 +133,8 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: end;
-  padding: 80px 400px;
+  padding: 60px 400px;
+  flex: 1 1 auto;
 }
 .part2 p {
   font-size: 36px;
@@ -142,10 +144,12 @@ a {
   margin: 0;
 }
 .part3 {
+  margin: 30px 0px;
   display: flex;
   justify-content: center;
   align-items: center;
   color: white;
+  flex: 1 1 auto;
 }
 .part3 .con {
   border-radius: 10px;
@@ -155,7 +159,6 @@ a {
   flex-direction: row;
   justify-content: space-between;
   width: 700px;
-  margin-top: 40px;
 }
 .part3 h3,
 p {
@@ -177,6 +180,7 @@ p {
   font-weight: bold;
 }
 .footer {
+  flex: 1 1 auto;
   display: flex;
   justify-content: center;
   align-items: center;
